@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        #redBox{
+            background-color: red;
+            
+
+        
+            /* 1. 왼쪽 위 테두리를 둥글게 */
+            /* border-top-left-radius: 50%; */
+
+            /* 2. 왼쪽 아래 테두리를 둥글게 */
+            /* border-bottom-left-radius: 50%; */
+
+            /* 3. 오른쪽 아래 테두리를 둥글게 */
+            /* border-bottom-right-radius: 50%; */
+
+            /* Q. 빨간 도형을 원으로 만들고자 한다면? */
+            /* border-top-right-radius: 50%; */
+
+            /* => 한줄로 표현? */
+            /* border-radius: 50%; */
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+
+        }
+        #blueBox{
+            background-color: blue;
+            margin-left: 100px;
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+
+        }
+        #greenBox{
+            background-color: green;
+            margin-left: 200px;
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+
+        }
+        #grayBox{
+            background-color: gray;
+            margin-left: 300px;
+
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div id="redBox"></div>
+    <div id="blueBox"></div>
+    <div id="greenBox"></div>
+    <div id="grayBox"></div>
+</body>
+</html>
